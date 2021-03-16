@@ -1,0 +1,69 @@
+.movie-description {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .movie-header {
+      p {
+        margin-top: 2rem;
+
+        font-size: 2.25rem;
+        font-weight: 600;
+        color: var(--gray);
+      }
+
+      .meta {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        margin-bottom: 1rem;
+
+        div {
+          display: flex;
+          align-items: center;
+
+          font-weight: 600;
+          color: var(--gray);
+          margin-right: 1rem;
+
+          svg {
+            color: #FAE800;
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+
+    button {}
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+
+    .movie-thumb {
+      padding-right: 1rem;
+    }
+
+    .movie-info {
+      .movie-plot {
+        font-size: 1.35rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.79rem;
+      }
+
+      p {
+        margin-bottom: .4rem;
+
+        span {
+          font-weight: 600;
+          color: var(--gray);
+          margin-right: .1rem;
+        }
+      }
+    }
+  }
+}

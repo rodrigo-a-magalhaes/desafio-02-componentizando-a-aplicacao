@@ -1,59 +1,78 @@
 .movie-card {
   position: relative;
+  width: 14.31rem;
+  height: 21.25rem;
+  cursor: pointer;
 
-  img {
-    width: 14.31rem;
-    height: 21.25rem;
+  &:hover .movie-card-effect {
+    box-shadow: 0 0 5px 0 #fff;
+    margin-top: -2px;
+    margin-left: -2px;
+    transition-duration: .2s;
   }
 
-  > div {
+  .movie-card-effect {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    width: 14.31rem;
+    height: 21.25rem;
+    overflow: hidden;
 
-    display: flex;
-    justify-content: center;
-
-    background: rgba(31, 34, 41, 0.5);
-
-    .movie-info {
-      max-width: 12.31rem;
+    img {
       width: 100%;
-      
+      height: 100%;
+    }
+
+    >div {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+
       display: flex;
-      flex-direction: column;
-  
-      > span {
-        font-weight: 600;
-        font-size: 1rem;
-        color: #fbfbfb;
-  
-        margin-top: auto;
-        margin-bottom: 0.5rem;
-      }
-  
-      .meta {
+      justify-content: center;
+
+      background: rgba(31, 34, 41, 0.5);
+
+      .movie-info {
+        max-width: 12.31rem;
+        width: 100%;
+
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-  
-        margin-bottom: 1rem;
-  
-        div {
-          display: flex;
-          align-items: center;
-  
+        flex-direction: column;
+
+        >span {
           font-weight: 600;
-          color: var(--gray);
-  
-          svg {
-            color: #FAE800;
-            margin-right: 0.5rem;
+          font-size: 1rem;
+          color: #fbfbfb;
+
+          margin-top: auto;
+          margin-bottom: 0.5rem;
+        }
+
+        .meta {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
+          margin-bottom: 1rem;
+
+          div {
+            display: flex;
+            align-items: center;
+
+            font-weight: 600;
+            color: var(--gray);
+
+            svg {
+              color: #FAE800;
+              margin-right: 0.5rem;
+            }
           }
         }
       }
     }
   }
+
+
 }

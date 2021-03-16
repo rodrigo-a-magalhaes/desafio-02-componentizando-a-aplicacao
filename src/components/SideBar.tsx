@@ -1,18 +1,11 @@
+import { useContext } from 'react';
 import '../styles/sidebar.scss';
+import { MovieContext } from '../utils/MovieContext';
 import { Button } from "./Button";
 
-interface GenreResponseProps {
-  id: number;
-  name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
-  title: string;
-}
+export function SideBar() {
+  const { genres, selectedGenreId, handleClickButton } = useContext(MovieContext);
 
-interface SideBarProps {
-  genres: GenreResponseProps[];
-  selectedGenreId: number;
-  handleClickButton: (id: number) => void;
-}
-export function SideBar({ genres, selectedGenreId, handleClickButton }: SideBarProps) {
   // Complete aqui
   return (
     <nav className="sidebar">
@@ -21,6 +14,7 @@ export function SideBar({ genres, selectedGenreId, handleClickButton }: SideBarP
       <div className="buttons-container">
         {genres.map(genre => (
           <Button
+            key={genre.id}
             id={String(genre.id)}
             title={genre.title}
             iconName={genre.name}
