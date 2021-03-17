@@ -9,13 +9,13 @@
 > WatchMe e um projeto desafio do curso ignite da #Rocketseat, onde criamos uma listagem de filmes com suas categorias,e integrada com o mock json server. Ainda um desafio particular foi criar uma página para aproveitar o máximo do conteúdo ensinado, detalhando o conteúdo dos filmes.
 
 ## Imagens do Projeto
-![WatchMe](https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/WatchMe.gif?raw=true){:height="300px" width="300px"}.
-
 <p align="center">
-  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/WatchMe.gif?raw=true" width="300">
-  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/foto-1.png?raw=true" width="300">
-  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/foto-2.png?raw=true" width="300">
-  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/foto-3.png?raw=true" width="300">
+  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/WatchMe.gif?raw=true" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/foto-1.PNG" width="250">
+  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/foto-2.PNG" width="250">
+  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/foto-3.PNG" width="250">
 </p>
 
 ## Install
