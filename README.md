@@ -11,6 +11,13 @@
 ## Imagens do Projeto
 ![WatchMe](https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/WatchMe.gif?raw=true){:height="300px" width="300px"}.
 
+<p align="center">
+  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/WatchMe.gif?raw=true" width="300">
+  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/foto-1.png?raw=true" width="300">
+  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/foto-2.png?raw=true" width="300">
+  <img src="https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/foto-3.png?raw=true" width="300">
+</p>
+
 ## Install
 
 ```sh
