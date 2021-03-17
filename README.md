@@ -9,7 +9,7 @@
 > WatchMe e um projeto desafio do curso ignite da #Rocketseat, onde criamos uma listagem de filmes com suas categorias,e integrada com o mock json server. Ainda um desafio particular foi criar uma página para aproveitar o máximo do conteúdo ensinado, detalhando o conteúdo dos filmes.
 
 ## Imagens do Projeto
-![Alt text](relative/github/to/img.jpg?raw=true "WathMe")
+![WatchMe](https://github.com/rodrigo-a-magalhaes/desafio-02-componentizando-a-aplicacao/blob/main/github/WatchMe.gif?raw=true)
 
 ## Install
 
